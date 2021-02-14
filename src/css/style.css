@@ -1,0 +1,47 @@
+*, 
+*::after, 
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../img/currency.jpg");
+  background-size: cover;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+input {
+  border: 1px solid #000 ;
+  border-radius: .3rem;
+  padding: .75rem;
+}
+
+select {
+  margin-left: .5rem;
+  padding: .40rem;
+  border: 1px solid #000 ;
+  border-radius: .3rem;
+  font-size: large;
+}
+
+h1 {
+  color: #fff;
+  text-shadow: 2px 2px 2px #000;
+  font-size: 5rem;
+  margin-bottom: .5rem;
+}
+
+.equals {
+  font-weight: bold;
+  text-shadow: 3px 3px 6px #000;
+  color: #fff;
+  font-size: 3rem;
+}
